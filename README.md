@@ -1,12 +1,12 @@
 # 2022 Data Science Project - KAIST-POSTECH-UNIST Competition (Silver Award)
 
-This repository contains the code and methodology for our award-winning project in the **2nd KAIST-POSTECH-UNIST Data Science Competition**, where we received the **Silver Award**. Our project focused on **predicting small business owners** and optimizing advertisement strategies based on user behavior.
+This repository contains methodology for our award-winning project in the **2nd KAIST-POSTECH-UNIST Data Science Competition**, where we received the **Silver Award**. Our project focused on **predicting small business owners** and optimizing advertisement strategies based on user behavior.
 
-## 🚀 Project Overview
+## Project Overview
 
 Our goal was to develop a **machine learning model** that accurately identifies **small business owners** based on their login and transaction behaviors. We further extended our analysis to optimize **pop-up advertisement strategies** for maximizing expected profit.
 
-### 🏆 Achievements
+### Achievements
 - **Silver Award** in KAIST-POSTECH-UNIST Data Science Competition
 - **Highest AUC-ROC Score** achieved with **CatBoost** model
 - **Profit Optimization** by selecting the best threshold and strategy for ad targeting
@@ -15,7 +15,7 @@ Our goal was to develop a **machine learning model** that accurately identifies 
 
 ## 📊 Task Breakdown
 
-### 🔍 Task 1: Small Business Owner Prediction
+### Task 1: Small Business Owner Prediction
 #### Approach:
 - **Exploratory Data Analysis (EDA)**
   - Time series visualization to identify behavior patterns
@@ -28,14 +28,14 @@ Our goal was to develop a **machine learning model** that accurately identifies 
   - Behavior patterns before/after holidays & weekends
   - Peak activity trends (e.g., end-of-month spikes)
 
-### 📢 Task 2: Pop-up Advertisement Planning
+### Task 2: Pop-up Advertisement Planning
 - **Expected reward per correct business prediction: ₩500,000**
 - **Pop-up cost per attempt: ₩400**
 - **Profit Matrix-Based Optimization**
   - Selected optimal **decision threshold** through theoretical and experimental analysis
   - **Best Model:** **CatBoost (Threshold = 0.08, Expected Profit = ₩175,955)**
 
-### 💰 Task 3: Expected Profit & Strategy
+### Task 3: Expected Profit & Strategy
 - **Two strategies for ad targeting**
   - **Strategy 1:** Train a separate login prediction model
   - **Strategy 2:** Directly use business probability for ad selection
@@ -56,20 +56,3 @@ Our goal was to develop a **machine learning model** that accurately identifies 
 - **Matplotlib, Seaborn** for data visualization
 - **Feature Engineering & Model Optimization** techniques applied
 
----
-
-## 👨‍💻 Contributors
-- **Jaeyun Song (35%)** - Feature Engineering, Profit Derivation, Experimentation
-- **Jaewoo Kim (35%)** - EDA, Feature Engineering, Experimentation
-- **Seonkyu Lee (30%)** - PCA, Feature Engineering, Experimentation
-
----
-
-## 📌 Future Work
-- Improve feature selection through deeper correlation analysis
-- Explore deep learning models for enhanced predictive performance
-- Expand ad strategy to **multi-objective optimization frameworks**
-
----
-
-## 📂 Repository Structure
